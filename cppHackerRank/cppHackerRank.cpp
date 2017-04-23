@@ -24,10 +24,12 @@
 #include <iostream>
 #include <algorithm>
 #include <unordered_map>
+#include <iomanip>
 
 using namespace std;
 
 //Arrays - DS
+/*
 int main() {
 	int n;
 	cin >> n;
@@ -46,6 +48,54 @@ int main() {
 
 	return 0;
 }
+*/
 
+//DAY 1 - 30 Data Types
+/*
+int main()
+{
+	int i = 4;
+	double d = 4.0;
+	string s = "HackerRank";
 
+	int _int;
+	double _double;
+	string _string;
 
+	cin >> _int;
+	cin >> _double;
+
+	cin.ignore();
+	getline(cin,_string);
+
+	cout << i + _int << endl;
+	cout << fixed << setprecision(1) << d + _double << endl;
+	cout << s << _string << endl;
+
+	system("pause");
+
+	return 0;
+}
+*/
+
+//DAY 2 - 30 Operators
+/*
+int main()
+{
+	double mealCost;
+	int tipPercent;
+	int taxPercent;
+
+	cin >> mealCost;
+	cin >> tipPercent;
+	cin >> taxPercent;
+	
+	double tip = mealCost * (tipPercent/100.0);
+	double tax = mealCost * (taxPercent/100.0);
+	double totalCost = mealCost + tip + tax;
+
+	cout << "The total meal cost is " << round(totalCost) << " dollars." << endl;
+	return 0;
+
+}
+*/
