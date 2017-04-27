@@ -72,8 +72,6 @@ int main()
 	cout << fixed << setprecision(1) << d + _double << endl;
 	cout << s << _string << endl;
 
-	system("pause");
-
 	return 0;
 }
 */
@@ -96,6 +94,33 @@ int main()
 
 	cout << "The total meal cost is " << round(totalCost) << " dollars." << endl;
 	return 0;
+}
+*/
 
+//DAY 3 - 30 Conditional Statments
+/*
+int main()
+{
+	int N;
+	cin >> N;
+
+	bool boo = N % 2 == 0;
+
+	if(boo)
+	{
+		if(2 < N && N <= 5)
+			cout << "Not Weird" << endl;
+		else if(6 < N && N <= 20)
+			cout << "Weird" << endl;
+		else if(20 < N)
+			cout << "Not Weird" << endl;
+	}
+	else
+	{
+		cout << "Weird" << endl;
+	}
+
+	system("pause");
+	return 0;
 }
 */
