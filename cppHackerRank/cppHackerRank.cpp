@@ -22,13 +22,18 @@
 #include <numeric>
 #include <sstream>
 #include <iostream>
+#include <fstream>
+#include <numeric>
+#include <sstream>
+#include <iostream>
 #include <algorithm>
 #include <unordered_map>
-#include <iomanip>
+
 
 using namespace std;
 
 //Arrays - DS
+#pragma region Arrays
 /*
 int main() {
 	int n;
@@ -49,8 +54,10 @@ int main() {
 	return 0;
 }
 */
+#pragma endregion Arrays
 
 //DAY 1 - 30 Data Types
+#pragma region DAY 1
 /*
 int main()
 {
@@ -75,8 +82,10 @@ int main()
 	return 0;
 }
 */
+#pragma endregion DAY 1
 
 //DAY 2 - 30 Operators
+#pragma region DAY 2
 /*
 int main()
 {
@@ -96,8 +105,10 @@ int main()
 	return 0;
 }
 */
+#pragma endregion DAY 2
 
 //DAY 3 - 30 Conditional Statments
+#pragma region DAY 3
 /*
 int main()
 {
@@ -105,6 +116,7 @@ int main()
 	cin >> N;
 
 	bool boo = N % 2 == 0;
+
 
 	if(boo)
 	{
@@ -124,3 +136,69 @@ int main()
 	return 0;
 }
 */
+#pragma endregion DAY 3
+
+#pragma region DAY 4
+/*
+int main() {
+	int t;
+	int age;
+	cin >> t;
+	for (int i = 0; i < t; i++) {
+		cin >> age;
+		Person p(age);
+		p.amIOld();
+		for (int j = 0; j < 3; j++) {
+			p.yearPasses();
+		}
+		p.amIOld();
+
+		cout << '\n';
+	}
+
+	return 0;
+}
+*/
+#pragma endregion DAY 4
+
+#pragma region DAY 5
+/*
+int main() {
+	int n;
+	cin >> n;
+
+	for(int i=1;i<=10;i++)
+	{
+		cout << n << " x " << i << " = " << n * i << endl;
+	}
+	return 0;
+}
+*/
+#pragma endregion DAY 5
+
+#pragma region DAY 6
+/*
+int main() {
+	int cases;
+	cin >> cases; 
+	cin.clear(); 
+	cin.ignore();
+	for (int i = 0; i < cases; i++)
+	{
+		string line, e, o;
+		getline(cin, line);
+		for (int i = 0; i < line.size(); i++)
+		{
+			if(i % 2 == 0)
+			e += line[i];
+
+			if(i % 2 > 0)
+			o += line[i];
+		}
+		cout << e << " " << o << endl;
+	}
+	system("pause");
+	return 0;
+}
+*/
+#pragma endregion DAY 6
