@@ -28,33 +28,12 @@
 #include <iostream>
 #include <algorithm>
 #include <unordered_map>
+#include <filesystem>
 
 
 using namespace std;
 
-//Arrays - DS
-#pragma region Arrays
-/*
-int main() {
-	int n;
-	cin >> n;
-	vector<int> arr(n);
-	for (int arr_i = 0;arr_i < n;arr_i++) {
-		cin >> arr[arr_i];
-	}
-	
-	vector<int> arr1 = arr;
-	reverse(arr1.begin(), arr1.end());
 
-	for (vector<int>::iterator it = arr1.begin(); it != arr1.end(); ++it)
-		cout << *it << ' ';
-
-	cout << endl;
-
-	return 0;
-}
-*/
-#pragma endregion Arrays
 
 //DAY 1 - 30 Data Types
 #pragma region DAY 1
@@ -202,3 +181,90 @@ int main() {
 }
 */
 #pragma endregion DAY 6
+
+//Arrays - DS
+#pragma region DAY 7 Arrays
+/*
+int main() {
+int n;
+cin >> n;
+vector<int> arr(n);
+for (int arr_i = 0;arr_i < n;arr_i++) {
+cin >> arr[arr_i];
+}
+
+vector<int> arr1 = arr;
+reverse(arr1.begin(), arr1.end());
+
+for (vector<int>::iterator it = arr1.begin(); it != arr1.end(); ++it)
+cout << *it << ' ';
+
+cout << endl;
+
+return 0;
+}
+*/
+#pragma endregion DAY 7 Arrays
+
+#pragma region DAY 8
+/* NOT WORKING
+int main() {
+	map<string, int> phonebook;
+	map<int, string> input;
+	int count, number;string name,inputs;
+
+	cin >> count;
+
+	for(int i =0;i<count;++i)
+	{
+		cin >> name;
+		cin >> number;
+		phonebook[name] = number;
+	}
+
+	for(int i=0;i<count;++i)
+	{
+		cin >> inputs;
+		input[i] = inputs;
+	}
+
+	for (int i = 0;i<count;++i)
+	{
+		if(phonebook[input[i]] == 0)
+			cout << "Not found" << endl;
+		else
+			cout << input[i]<<"="<< phonebook[input[i]] << endl;
+	}
+
+	return 0;
+}
+*/
+/*
+int main()
+{
+	map<string, int> phonebook;
+	map<string, int>::iterator it;
+	string name, key;
+	int phoneNumber, n;
+	cin >> n;
+
+	for (int i = 0; i < n; i++) {
+		cin >> name >> phoneNumber;
+		phonebook.insert(make_pair(name, phoneNumber));
+	}
+
+	while (cin >> key) {
+		it = phonebook.find(key);
+
+		if (it != phonebook.end()) {
+			cout << it->first << "=" << it->second << endl;
+		}
+		else {
+			cout << "Not found\n";
+		}
+	}
+
+	return 0;
+}
+*/
+#pragma endregion DAY 8
