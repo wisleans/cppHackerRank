@@ -268,3 +268,49 @@ int main()
 }
 */
 #pragma endregion DAY 8
+
+#pragma region DAY 9 
+/*
+int factorial(int input)
+{
+	int output = 1;
+
+	for (int i = input;i>0;i--)
+	{
+		if (i >0)
+		{
+			output = output * (i);
+		}
+
+	}
+	return output;
+}
+
+int main()
+{
+	int input=0;
+	//cin >> input;
+	
+	//tests
+	int test1 = factorial(3);
+	cout << test1 << endl;
+	int test2 = factorial(4);
+	cout << test2 << endl;
+	int test3 = factorial(5);
+	cout << test3 << endl;
+
+	system("pause");
+	return 0;
+}
+*/
+#pragma endregion DAY 9 Factorial
+
+#pragma region DAY 10 Binary
+
+int main() {
+	int n;
+	cin >> n;
+	return 0;
+}
+
+#pragma endregion DAY 10
