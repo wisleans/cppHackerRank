@@ -339,3 +339,50 @@ int main() {
 }
 */
 #pragma endregion DAY 11 2D
+
+#pragma region DAY 12 Inheritance
+/*
+#include "Person.h"
+
+int main() {
+	string firstName;
+	string lastName;
+	int id;
+	int numScores;
+	cin >> firstName >> lastName >> id >> numScores;
+	vector<int> scores;
+	for (int i = 0; i < numScores; i++) {
+		int tmpScore;
+		cin >> tmpScore;
+		scores.push_back(tmpScore);
+	}
+	Student* s = new Student(firstName, lastName, id, scores);
+	s->printPerson();
+	cout << "Grade: " << s->calculate() << "\n";
+	system("pause");
+	return 0;
+}
+*/
+#pragma endregion DAY 12 Inheritance
+
+#pragma region DAY 13 Abstract
+/*
+#include "Person.h"
+
+int main() {
+	string title, author;
+	int price;
+	getline(cin, title);
+	getline(cin, author);
+	cin >> price;
+	MyBook novel(title, author, price);
+	novel.display();
+	return 0;
+}
+*/
+#pragma endregion DAY 13 Abstract
+
+#pragma region DAY 14 Scope
+
+
+#pragma endregion DAY 13 Scope
