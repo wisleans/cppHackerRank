@@ -79,3 +79,23 @@ public:
 };
 */
 #pragma endregion DAY 13
+
+
+#pragma region DAY 14
+/*
+using namespace std;
+
+
+class Difference {
+private:
+	vector<int> elements;
+
+public:
+	int maximumDifference;
+	Difference(vector<int> elements);
+
+	void computeDifference();
+
+};
+*/
+#pragma endregion DAY 14

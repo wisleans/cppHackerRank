@@ -383,6 +383,29 @@ int main() {
 #pragma endregion DAY 13 Abstract
 
 #pragma region DAY 14 Scope
+/*
+#include "Person.h"
 
+int main() {
+	int N;
+	cin >> N;
 
-#pragma endregion DAY 13 Scope
+	vector<int> a;
+
+	for (int i = 0; i < N; i++) {
+		int e;
+		cin >> e;
+
+		a.push_back(e);
+	}
+
+	Difference d(a);
+
+	d.computeDifference();
+
+	cout << d.maximumDifference;
+
+	return 0;
+}
+*/
+#pragma endregion DAY 14 Scope

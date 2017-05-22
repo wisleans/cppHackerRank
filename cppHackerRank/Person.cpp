@@ -2,6 +2,7 @@
 #include "Person.h"
 #include <string>
 #include <iostream>
+#include <complex>
 
 using namespace std;
 
@@ -115,3 +116,34 @@ void MyBook::display()
 }
 */
 #pragma endregion DAY 13
+
+#pragma region DAY 14
+/*
+Difference::Difference(vector<int> elements)
+{
+	this->elements = elements;
+}
+
+
+void Difference::computeDifference()
+{
+	maximumDifference = 0;
+	int small = 0;
+	int big = 0;
+
+
+	for (vector<int>::iterator it = elements.begin(); it != elements.end(); ++it)
+	{
+		if(it == elements.begin())
+		{
+			small = *it;
+			big = *it;
+		}
+		big = big < *it ? *it : big;
+		small = small < *it ? small :*it;
+	}
+
+	maximumDifference = abs(big - small);
+}
+*/
+#pragma endregion DAY 14
