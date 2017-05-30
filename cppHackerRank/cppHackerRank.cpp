@@ -438,6 +438,7 @@ int main() {
 	try
 	{
 		I = stoi(S);
+		//useful to do if(typeid(I) == typeid(int))
 		cout << I << endl;
 		
 	}
@@ -445,9 +446,7 @@ int main() {
 	{
 		cout << "Bad String" << endl;
 	}
-
 	
-	system("pause");
 	return 0;
 }
 */
