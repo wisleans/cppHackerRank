@@ -120,3 +120,17 @@ public:
 };
 */
 #pragma endregion DAY 15
+
+#pragma region DAY 17
+/****************
+using namespace std;
+class Calculator {
+public:
+	int power(int b, int p);
+private:
+	class e : public exception {
+		virtual const char* what() const throw();
+	} ex;
+};
+*/
+#pragma endregion DAY 17

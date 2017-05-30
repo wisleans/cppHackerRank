@@ -451,3 +451,27 @@ int main() {
 }
 */
 #pragma endregion DAY 16 Exceptions - String to Integer
+
+#pragma region DAY 17 More Exceptions
+/*
+#include "Person.h"
+
+int main()
+{
+	Calculator myCalculator = Calculator();
+	int T, n, p;
+	cin >> T;
+	while (T-->0) {
+		if (scanf("%d %d", &n, &p) == 2) {
+			try {
+				int ans = myCalculator.power(n, p);
+				cout << ans << endl;
+			}
+			catch (exception& e) {
+				cout << e.what() << endl;
+			}
+		}
+	}
+}
+*/
+#pragma endregion DAY 17 More Exceptions

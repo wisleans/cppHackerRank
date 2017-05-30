@@ -187,3 +187,27 @@ void Solution::display(Node* head)
 }
 */
 #pragma endregion DAY 15
+
+
+#pragma region DAY 17
+/**********************
+#include <cmath>
+
+int Calculator::power(int b, int p) {
+	if (b < 0 || p < 0)
+	{
+		throw ex;
+	}
+	else
+	{
+		return pow(b, p);
+	}
+}
+
+const char * Calculator::e::what() const throw()
+{
+	return "n and p should be non-negative";
+}
+*/
+#pragma endregion DAY 17
+
