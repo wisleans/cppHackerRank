@@ -147,3 +147,43 @@ void Difference::computeDifference()
 }
 */
 #pragma endregion DAY 14
+
+#pragma region DAY 15
+/*
+Node::Node(int d) {
+		data = d;
+		next = NULL;
+};
+
+Node* Solution::insert(Node *head, int data)
+{
+	Node *node = new Node(data);
+	Node *nextNode = head;
+
+	if (nextNode != NULL)
+	{
+		while (nextNode->next != NULL)
+		{
+			nextNode = nextNode->next;
+		}
+		nextNode->next = node;
+	}
+	else
+	{
+		head = node;
+	}
+
+	return head;
+};
+
+void Solution::display(Node* head)
+{
+	Node *start = head;
+	while (start)
+	{
+		cout << start->data << " ";
+		start = start->next;
+	}
+}
+*/
+#pragma endregion DAY 15

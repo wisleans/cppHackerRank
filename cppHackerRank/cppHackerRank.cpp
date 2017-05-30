@@ -25,10 +25,10 @@
 #include <fstream>
 #include <numeric>
 #include <sstream>
-#include <iostream>
 #include <algorithm>
 #include <unordered_map>
 #include <filesystem>
+#include <cstddef>
 
 
 using namespace std;
@@ -409,3 +409,26 @@ int main() {
 }
 */
 #pragma endregion DAY 14 Scope
+
+#pragma region DAY 15 Linked List
+/*
+#include "Person.h"
+
+int main()
+{
+
+	Node* head = NULL;
+	Solution mylist;
+	int T, data;
+	cin >> T;
+	while (T-->0) {
+		cin >> data;
+		head = mylist.insert(head, data);
+	}
+	mylist.display(head);
+
+	system("pause");
+	return 0;
+}
+*/
+#pragma endregion DAY 15 Linked List

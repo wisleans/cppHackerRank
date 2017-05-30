@@ -80,7 +80,6 @@ public:
 */
 #pragma endregion DAY 13
 
-
 #pragma region DAY 14
 /*
 using namespace std;
@@ -99,3 +98,25 @@ public:
 };
 */
 #pragma endregion DAY 14
+
+#pragma region DAY 15
+/*
+using namespace std;
+
+class Node
+{
+public:
+	int data;
+	Node *next;
+	Node(int d);
+};
+
+class Solution
+{
+public:
+	Node* insert(Node *head, int data);
+	void display(Node *head);
+	
+};
+*/
+#pragma endregion DAY 15
