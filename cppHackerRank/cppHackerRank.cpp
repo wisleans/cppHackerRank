@@ -29,13 +29,11 @@
 #include <unordered_map>
 #include <filesystem>
 #include <cstddef>
-
+#include <typeinfo>
 
 using namespace std;
 
 
-
-//DAY 1 - 30 Data Types
 #pragma region DAY 1
 /*
 int main()
@@ -63,7 +61,6 @@ int main()
 */
 #pragma endregion DAY 1
 
-//DAY 2 - 30 Operators
 #pragma region DAY 2
 /*
 int main()
@@ -86,7 +83,6 @@ int main()
 */
 #pragma endregion DAY 2
 
-//DAY 3 - 30 Conditional Statments
 #pragma region DAY 3
 /*
 int main()
@@ -182,7 +178,6 @@ int main() {
 */
 #pragma endregion DAY 6
 
-//Arrays - DS
 #pragma region DAY 7 Arrays
 /*
 int main() {
@@ -432,3 +427,28 @@ int main()
 }
 */
 #pragma endregion DAY 15 Linked List
+
+#pragma region DAY 16 Exceptions - String to Integer
+/*
+int main() {
+	string S;
+	cin >> S;
+
+	int I;
+	try
+	{
+		I = stoi(S);
+		cout << I << endl;
+		
+	}
+	catch(exception e)
+	{
+		cout << "Bad String" << endl;
+	}
+
+	
+	system("pause");
+	return 0;
+}
+*/
+#pragma endregion DAY 16 Exceptions - String to Integer
